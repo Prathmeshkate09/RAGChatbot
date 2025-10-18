@@ -1,0 +1,14 @@
+{
+  "watch": ["src"],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules/**",
+    ".git/**",
+    ".venv/**",
+    "new_book_db/**",
+    "credentials/**",
+    "**/*.log",
+    "**/*.pkl",
+    "**/*.faiss"
+  ]
+}

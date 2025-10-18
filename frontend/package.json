@@ -1,0 +1,42 @@
+{
+  "name": "ai-chatbot-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "classnames": "^2.5.1",
+    "firebase": "^11.7.0",
+    "lucide-react": "^0.446.0",
+    "next": "15.5.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.5.5",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.4.5"
+  },
+  "overrides": {
+    "undici": "^6.21.2",
+    "@firebase/auth": "^1.7.10",
+    "@firebase/auth-compat": "^0.5.15",
+    "@firebase/firestore": "^4.7.4",
+    "@firebase/firestore-compat": "^0.3.39",
+    "@firebase/functions": "^0.11.9",
+    "@firebase/functions-compat": "^0.3.15",
+    "@firebase/storage": "^0.13.3",
+    "@firebase/storage-compat": "^0.3.13"
+  }
+}

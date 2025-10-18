@@ -1,0 +1,51 @@
+# ==========================
+# 🔹 General Logs
+# ==========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# 🔹 Node Modules
+# ==========================
+node_modules/
+
+# ==========================
+# 🔹 Build Artifacts
+# ==========================
+coverage/
+dist/
+out/
+.next/
+.next/static/
+.next/cache/
+
+# ==========================
+# 🔹 Environment Files
+# ==========================
+.env
+.env.*
+.env.local
+.env.*.local
+
+# ==========================
+# 🔹 Cloud & Deployment
+# ==========================
+.vercel/
+netlify.toml
+
+# ==========================
+# 🔹 OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# 🔹 Editor Config
+# ==========================
+.vscode/
+.idea/
+.venv/
