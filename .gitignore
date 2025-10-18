@@ -50,4 +50,4 @@ Thumbs.db
 .idea/
 .venv/
 # Firebase secrets
-backend/credentials/
+credentials/
