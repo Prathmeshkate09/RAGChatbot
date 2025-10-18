@@ -49,3 +49,5 @@ Thumbs.db
 .vscode/
 .idea/
 .venv/
+# Firebase secrets
+backend/credentials/
